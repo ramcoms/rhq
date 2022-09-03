@@ -31,15 +31,15 @@ a:hover {
 }
 
 .content {
-padding: 50px;
+padding: 20px;
 }
 
 h1,
 h2 {
     width: var(--width);
     border-bottom: 1px solid #f2f2f2;
+    margin-bottom: 10px;
 }
-
 
 .random {
     margin: 70px 0;
@@ -47,15 +47,15 @@ h2 {
 
 .random-text {
     width: var(--width);
-    margin: 5px 0;
 }
 
 button {
+    margin-top: 10px;
     color: inherit;
     font-family: inherit;
-    padding: 3px 8px;
+    padding: 5px 10px;
     border: 1px solid gray;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 button:hover {
