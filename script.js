@@ -34,9 +34,6 @@ async function getQuote() {
   const index = Math.floor(Math.random() * data.length);
   const { text, author } = data[index];
 
-  quote.textContent = text;
-  quoteAuthor.textContent = author;
-
-  console.log(text);
-  console.log(author);
+  quote.textContent = `"${text}"`;
+  quoteAuthor.textContent = `- ${author}`;
 }

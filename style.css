@@ -22,12 +22,15 @@ ul {
 
 a {
     color: #2a2b2f;
-    text-decoration: none;
     margin-left: 10px;
+    text-decoration-color: steelblue;
 }
 
 a:hover {
-    color: crimson;
+    padding: 1px;
+    background-color: steelblue;
+    color: #fff;
+    border-radius: 5px;
 }
 
 .content {
@@ -49,17 +52,25 @@ h2 {
     width: var(--width);
 }
 
+#author {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+
 button {
     margin-top: 10px;
-    color: inherit;
+    background-color: #fff;
     font-family: inherit;
     padding: 5px 10px;
-    border: 1px solid gray;
+    border: 2px solid steelblue;
     border-radius: 5px;
 }
 
 button:hover {
     cursor:pointer;
-    filter: brightness(.90);
+    background-color: steelblue;
+    color: #fff;
 }
 
