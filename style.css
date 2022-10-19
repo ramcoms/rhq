@@ -37,7 +37,10 @@ a:hover {
 padding: 20px;
 }
 
-h1,
+h1 {
+    margin-bottom: 20px;
+}
+
 h2 {
     width: var(--width);
     border-bottom: 1px solid #f2f2f2;
@@ -60,6 +63,7 @@ h2 {
 
 
 button {
+    color: steelblue;
     margin-top: 10px;
     background-color: #fff;
     font-family: inherit;
