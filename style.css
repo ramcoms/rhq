@@ -8,10 +8,12 @@
 
 :root {
     --width: 300px;
+    --primary-color: #FF5D01;
 }
 
 body {
     font-family: 'Space Mono', sans-serif;
+    font-size: 0.95rem;
     background-color: #fefefe;
     color: #2a2b2f;
 }
@@ -20,16 +22,21 @@ ul {
     margin-left: 20px;
 }
 
+li {
+    margin-bottom: 10px;
+}
+
 a {
     color: #2a2b2f;
     margin-left: 10px;
-    text-decoration-color: steelblue;
+    text-decoration: none;
+    text-decoration-color: var(--primary-color);
 }
 
 a:hover {
-    padding: 1px;
-    background-color: steelblue;
-    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: var(--primary-color);
+    text-decoration-thickness: 2px;
     border-radius: 5px;
 }
 
@@ -37,8 +44,10 @@ a:hover {
 padding: 20px;
 }
 
-h1 {
+.slogan {
+    font-size: 0.8rem;
     margin-bottom: 20px;
+    opacity: .5;
 }
 
 h2 {
@@ -59,22 +68,23 @@ h2 {
     font-size: 0.8rem;
     opacity: 0.7;
     margin-top: 10px;
+    font-style: italic;
 }
 
 
 button {
-    color: steelblue;
+    color: var(--primary-color);
     margin-top: 10px;
     background-color: #fff;
     font-family: inherit;
     padding: 5px 10px;
-    border: 2px solid steelblue;
-    border-radius: 5px;
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
 }
 
 button:hover {
     cursor:pointer;
-    background-color: steelblue;
+    background-color: var(--primary-color);
     color: #fff;
 }
 
