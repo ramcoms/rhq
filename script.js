@@ -35,5 +35,5 @@ async function getQuote() {
   const { text, author } = data[index];
 
   quote.textContent = `"${text}"`;
-  quoteAuthor.textContent = `- ${author}`;
+  // quoteAuthor.textContent = `- ${author}`;
 }
