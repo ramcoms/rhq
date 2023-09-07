@@ -18,14 +18,20 @@ body {
     color: #2a2b2f;
 }
 
+
+
 .container {
     padding: 20px;
 }
 
 .slogan {
     font-size: 0.8rem;
-    margin-bottom: 50px;
     opacity: .5;
+}
+
+i {
+    font-size: 1.5rem;
+    margin: 10px 0;
 }
 
 section {
